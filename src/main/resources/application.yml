@@ -20,7 +20,7 @@ spring:
     locations: classpath:db/migration
     placeholder-replacement: false
     encoding: UTF-8
-    enabled: true
+    enabled: false
     
 ## URL Details
 service: 
