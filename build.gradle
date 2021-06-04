@@ -22,7 +22,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web:2.2.3.RELEASE'
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:2.2.1.RELEASE'
 
-	compile "org.flywaydb:flyway-core:5.2.4"
+	//implementation group: 'org.flywaydb', name: 'flyway-core', version: '5.2.4'
 	compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.13'
 	compile group: 'net.sf.dozer', name: 'dozer', version: '5.5.1'
 	
