@@ -6,10 +6,10 @@ server:
 spring:
   application:
     name: myekart-admin-service
-    
+
 ### Datasource properties
   datasource:
-    url: jdbc:mysql://localhost:3306/myekart_admin?useSSL=false
+    url: jdbc:mysql://localhost:3306/myekart_admin?allowPublicKeyRetrieval=true&useSSL=false
     username: root
     password: root123
     
